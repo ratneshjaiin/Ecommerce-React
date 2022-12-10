@@ -1,0 +1,502 @@
+*[class*=section-]>.container h2 {
+    font-size: 40px;
+}
+
+
+/* Header */
+nav.navbar.prls-sub-nav {
+    min-height: unset;
+    margin: 0;
+    font-weight: 300;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
+    box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
+}
+/* ----Banner-Block---- */
+
+.section-about-block {
+  background: #ffffff;
+  padding: 70px 0px 70px; }
+  .section-about-block .about-blocks {
+    width: 100%;
+    
+    margin: 0 auto; }
+    .section-about-block .about-blocks .section-about-block-content h3 {
+      color: #1b58cb;
+      text-align: center; }
+    .section-about-block .about-blocks .section-about-block-content p {
+      line-height: 2; }
+    .section-about-block .about-blocks .section-about-block-content .download-btn {
+      display: flex;
+      justify-content: center; }
+      .section-about-block .about-blocks .section-about-block-content .download-btn .apple-btn {
+        position: relative; }
+        .section-about-block .about-blocks .section-about-block-content .download-btn .apple-btn button {
+          border: 1px solid #555;
+          padding: 10px 30px 10px 40px;
+          margin: 0px 5px 0 0;
+          border-radius: 5px;
+          background-color: #ffffff;
+          font-family: "montserrat-bold"; }
+        .section-about-block .about-blocks .section-about-block-content .download-btn .apple-btn a {
+          position: absolute;
+          top: 10px;
+          left: 11px;
+          font-family: "montserrat-bold"; }
+          .section-about-block .about-blocks .section-about-block-content .download-btn .apple-btn a i {
+            font-size: 24px; }
+      .section-about-block .about-blocks .section-about-block-content .download-btn .play-store {
+        position: relative; }
+        .section-about-block .about-blocks .section-about-block-content .download-btn .play-store button {
+          border: 1px solid #555;
+          padding: 10px 20px 10px 40px;
+          border-radius: 5px;
+          background-color: #ffffff;
+          font-family: "montserrat-bold"; }
+        .section-about-block .about-blocks .section-about-block-content .download-btn .play-store a {
+          position: absolute;
+          top: 11px;
+          left: 11px;
+          font-family: "montserrat-bold"; }
+          .section-about-block .about-blocks .section-about-block-content .download-btn .play-store a i {
+            font-size: 24px; }
+    .section-about-block .about-blocks .about-block-img {
+      text-align: center; }
+      @media only screen and (max-width: 767px) {
+        .section-about-block .about-blocks .about-block-img {
+          padding-top: 40px; } }
+      .section-about-block .about-blocks .about-block-img img {
+        width: 100%;
+        padding: 0px 40px; }
+/* --End-banner-css--- */
+
+/* ---Feature-pro----- */
+section.products {
+  padding: 70px 0px;
+  background: linear-gradient(200deg, #000 40%, #0c2742 80%);
+
+}
+section.products a {
+  text-decoration: none;
+}
+.products-detail {
+  padding: 15px;
+  position: relative;
+  background: azure;
+}
+
+.products-image img:hover{
+  transform: scale(1.1);
+}
+.products-image img {
+  width: 100%;
+  height: 100%;
+  transition: 1s all ease-in-out;
+}
+.products-image figure {
+  position: relative;
+}
+.products-image figcaption.caption {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  color: #ffffff;
+  background: black;
+  padding: 5px;
+  text-transform: capitalize;
+
+}
+.products-image {
+  position: relative;
+  overflow: hidden;
+}
+.products-heading {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.products-heading h2 {
+  font-family: "Playfair Display";
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5 rem;
+  line-height: 26px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+
+/* our-services */
+section.service-block {
+  padding: 70px 0px;
+}
+.service-block .card{
+  transition: all 300ms linear;
+}
+.service-block .card:hover {
+  border-color: #39f;
+  box-shadow: 0 20px 15px rgb(51 68 85 / 40%);
+  transform: translate(0px,-20px);
+}
+section.service-block .card i {
+  font-size: 50px;
+  margin: 0px auto;
+  display: block;
+  color: lightskyblue;
+  padding: 10px 0px;
+}
+section.service-block .card:hover i {
+  color: dodgerblue;
+}
+.service-block .card p{
+  font-size: 14px;
+}
+/* ---Single-Product---- */
+.product-data-warranty .card {
+  height: 100%;
+} 
+.product-data-warranty [class*="col"]{ 
+  padding: 5px;
+}
+.product-data-warranty .card i {
+  padding: 10px 0px;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  color: cornflowerblue;
+}
+.star_rating {
+  display: flex;
+  gap: 30px;
+}
+.star_rating svg.icon {
+  color: darkorange;
+}
+.multiple_colors{
+  
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+}
+.multiple_colors .btnStyle {
+  display: flex;
+  align-items: inherit;
+  width: 25px;
+  height: 25px;
+  margin: 0px 3px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+.multiple_colors .btnStyle.active{
+  opacity: 1;
+}
+
+/* ---ADD-TO-CART--- */
+.cart-item .card {
+  display: flex;
+  flex-direction: inherit;
+  gap: 15px;
+  border: none;
+}
+.cart-item .card .image-section img {
+  width: 85px;
+}
+.cart-item .card .add-item-color{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.cart-item .card .name_and_color p {
+  padding-right: 8px;
+}
+
+
+.continue_and_clear_btn {
+  display: flex;
+  JUSTIFY-CONTENT: SPACE-BETWEEN;
+  ALIGN-ITEMS: center;
+  PADDING: 10PX 0PX;
+}
+.continue_and_clear_btn button{
+  padding: 10px 10px;
+  color: #ffff;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.continue_and_clear_btn .continue-shopping  {
+  background: cornflowerblue;
+}
+.continue_and_clear_btn .clear_all_data  {
+  background: red ;
+}
+.total_payment_amount {
+  padding: 20px 10px;
+  background: gainsboro;
+  width: 100%;
+  /* max-width: 200px; */
+  display: flex;
+  flex-direction: column;
+}
+.total_payment_amount span {
+  color: navy;
+  font-weight: 700;}
+  
+/* contract */
+.location-block {
+    padding: 50px 0px;
+    background-color: #f0f7fd;
+}
+.location-block .location-map h2 {
+    padding-bottom: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+.location-block .location-map h2::before {
+    content: "";
+    height: 2px;
+    width: 100%;
+    top: 18px;
+    left: 0px;
+    max-width: 28%;
+    background: #888;
+    position: absolute;
+}
+.location-block .location-map h2::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    top: 18px;
+    right: 0px;
+    max-width: 28%;
+    background: #888;
+    position: absolute;
+}
+
+/* --fORMS----- */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+/* ---Top-to-bottom----- */
+.top-btn {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+.top-btn i.fa-solid.fa-arrow-up {
+    padding: 15px;
+    background: cornflowerblue;
+    border-radius: 50%;
+}
+
+.top-btn i {
+    animation: gototop 1.2s linear infinite alternate-reverse;
+  }
+  @keyframes gototop {
+    0% {
+      transform: translateY(-0.5rem);
+    }
+    100% {
+      transform: translateY(1rem);
+    }
+  }
+
+
+/* --footer--- */
+footer {
+  background-color: #021a3d;
+  padding: 70px 0px 30px; }
+  footer .company-details .footer-heading h5 {
+    color: #689bff;
+    font-family: "montserrat-bold";
+    text-transform: capitalize;
+    margin-bottom: 20px; }
+  footer .company-details p {
+    color: #ffffff; }
+  footer .company-details .foo-social .foo-icons {
+    display: flex;
+    padding: 10px 0px; }
+    footer .company-details .foo-social .foo-icons li {
+      width: 40px;
+      height: 40px;
+      list-style: none;
+      background: #11377f;
+      margin: 0 3px;
+      border-radius: 50%;
+      padding: 8px 13px; }
+      footer .company-details .foo-social .foo-icons li a {
+        color: #ffffff; }
+  footer .company-details .need-help .help-us {
+    padding: 0; }
+    footer .company-details .need-help .help-us li {
+      list-style: none;
+      line-height: 2; }
+      footer .company-details .need-help .help-us li a {
+        color: #ffffff;
+        text-decoration: none;
+        line-height: 1.5;
+        text-transform: capitalize; }
+        footer .company-details .need-help .help-us li a:hover {
+          color: #1b58cb;
+          text-decoration: underline; }
+  footer .company-details .contract-us .contract {
+    padding: 0; }
+    footer .company-details .contract-us .contract li {
+      list-style: none;
+      line-height: 2; }
+      footer .company-details .contract-us .contract li a {
+        color: #ffffff;
+        text-decoration: none;
+        line-height: 1.5;
+        text-transform: capitalize; }
+        footer .company-details .contract-us .contract li a:hover {
+          color: #1b58cb;
+          text-decoration: underline; }
+  footer .company-details .download-btn .apple-btn {
+    position: relative; }
+    footer .company-details .download-btn .apple-btn button {
+      border: 1px solid #555;
+      padding: 10px 30px 10px 40px;
+      margin: 0px 5px 0 0;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      font-family: "montserrat-bold"; }
+    footer .company-details .download-btn .apple-btn a {
+      position: absolute;
+      top: 10px;
+      left: 11px;
+      font-family: "montserrat-bold"; }
+      footer .company-details .download-btn .apple-btn a i {
+        font-size: 24px; }
+  footer .company-details .download-btn .play-store {
+    position: relative; }
+    footer .company-details .download-btn .play-store button {
+      border: 1px solid #555;
+      padding: 10px 20px 10px 40px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      font-family: "montserrat-bold"; }
+    footer .company-details .download-btn .play-store a {
+      position: absolute;
+      top: 11px;
+      left: 11px;
+      font-family: "montserrat-bold"; }
+      footer .company-details .download-btn .play-store a i {
+        font-size: 24px; }
+  footer .copyrighy {
+    padding: 70px 0px 0px;
+    text-align: center;
+    color: #ffff; }
+    footer .copyrighy h6 {
+      font-size: 13px; }
