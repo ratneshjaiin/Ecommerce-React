@@ -5,9 +5,12 @@ import { useCartContext } from '../context/cartContext'
 import CartItems from './CartItems';
 import '../index.css';
 import FormatePrice from '../Helperse/FormatePrice';
+import { useState } from 'react';
 const Cart = () => {
   const {cart, clearCart ,total_price,shipping_fee} = useCartContext();
+  // const [Shipping , SetShipping_fee]= useState(0)
   // console.log("addtocart:",cart)
+ 
   if(cart.length === 0){
     return(
       <div className='p-4'>No Cart Item</div>

@@ -1,7 +1,9 @@
 import React from 'react'
 import { useForm, ValidationError } from '@formspree/react';
+import { useAuth0 } from "@auth0/auth0-react";
 const Contract = () => {
   const [state, handleSubmit] = useForm("xrgdzapy");
+  const {isAuthenticated,user} = useAuth0();
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
   }
@@ -20,9 +22,9 @@ const Contract = () => {
  <form id="fs-frm" onSubmit={handleSubmit} method="post" encType="multipart/form-data">
   <fieldset id="fs-frm-inputs">
     <label forhtml="full-name">Full Name</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required=""/>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" value={isAuthenticated ? user.name : ""} required=""/>
     <label forhtml="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""/>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" value={isAuthenticated ? user.email : ""} required=""/>
     <label forhtml="street-address">Street Address</label>
     <input type="text" name="street" id="street-address" placeholder="Street" required=""/>
     
